@@ -23,7 +23,7 @@ async def welcome(chat,message,already=False):
 {chat.title}
 ●  يجب احترام الادمنية
 ●  الالتزام بالقوانين في الوصف
-●  الاعضاء  {members} 
+●  الاعضاء  {members} الادمنيه : {bb}
 ●  وقت الانضمام  {now}""")
 
 
