@@ -11,6 +11,10 @@ now = (now.strftime('%I:%M'))
 @app.on_message(filters.new_chat_members)
 async def welcome(chat,message,already=False):
       chat=message.chat.id
+      x = await bot.get_chat_members(
+        chat_id=message.chat.id, filter="administrators"
+      )
+      bb = lnex
       if not already:
         chat = await app.get_chat(chat)
         members = chat.members_count
